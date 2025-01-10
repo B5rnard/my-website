@@ -1,0 +1,100 @@
+<!doctype html>
+<!--
+* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
+* @version 1.0.0-beta20
+* @link https://tabler.io
+* Copyright 2018-2023 The Tabler Authors
+* Copyright 2018-2023 codecalm.net Paweł Kuna
+* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Tabler - Premium and Open Source dashboard template with responsive and high quality UI.</title>
+    <!-- CSS files -->
+    <link href="./dist/css/tabler.min.css?1692870487" rel="stylesheet"/>
+    <link href="./dist/css/tabler-flags.min.css?1692870487" rel="stylesheet"/>
+    <link href="./dist/css/tabler-payments.min.css?1692870487" rel="stylesheet"/>
+    <link href="./dist/css/tabler-vendors.min.css?1692870487" rel="stylesheet"/>
+    <link href="./dist/css/demo.min.css?1692870487" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Brand Identity Styles */
+        :root {
+            --main-purple: #7C4796;
+            --complementary-blue: #1D3557;
+            --complementary-green: #739E82;
+            --complementary-yellow: #FBB13C;
+            --main-bg: #FFFFFF;
+            --main-text: #000000;
+            --card-bg: #F7F7F7;
+            --card-border: #E0E0E0;
+            --font-header: 'Barlow Condensed', sans-serif;
+            --font-body: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--main-bg);
+            color: var(--main-text);
+            font-family: var(--font-body);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-header);
+            color: var(--main-purple);
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+        }
+
+        .card-title {
+            font-family: var(--font-header);
+            color: var(--main-purple);
+        }
+
+        .btn-primary {
+            background-color: var(--main-purple);
+            border-color: var(--main-purple);
+            color: var(--main-bg);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--complementary-blue);
+            border-color: var(--complementary-blue);
+        }
+
+        a {
+            color: var(--complementary-blue);
+        }
+
+        a:hover {
+            color: var(--main-purple);
+        }
+    </style>
+  </head>
+  <body  class=" d-flex flex-column">
+    <script src="./dist/js/demo-theme.min.js?1692870487"></script>
+    <div class="page page-center">
+      <div class="container container-slim py-4">
+        <div class="text-center">
+          <div class="mb-3">
+            <a href="." class="navbar-brand navbar-brand-autodark"><img src="./static/logo-small.svg" height="36" alt=""></a>
+          </div>
+          <div class="text-secondary mb-3">Preparing application</div>
+          <div class="progress progress-sm">
+            <div class="progress-bar progress-bar-indeterminate"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Libs JS -->
+    <!-- Tabler Core -->
+    <script src="./dist/js/tabler.min.js?1692870487" defer></script>
+    <script src="./dist/js/demo.min.js?1692870487" defer></script>
+  </body>
+</html>
